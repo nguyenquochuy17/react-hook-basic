@@ -22,6 +22,7 @@ function ColorBox(props) {
         localStorage.setItem("box-color", newColor)
     }
     return (
+
         <div className="color-box"
             style={{ backgroundColor: color }}
             onClick={handleBoxClick}>
